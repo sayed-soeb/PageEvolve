@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= content.title %></title>
+  <link rel="icon" type="image/png" href="/pro.png">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+      <a href="/" class="home-tab">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Show Pages</button>
+        <div class="dropdown-content" id="pageDropdown">
+          <!-- Dynamic content from MongoDB will be added here -->
+        </div>
+      </div>
+      <button onclick="edit()">Edit</button>
+      <button onclick="evo()">Evolve</button>
+      <label class="switch">
+        <input type="checkbox" id="themeSwitch" onchange="toggleTheme()">
+        <span class="slider"></span>
+      </label>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="image-container">
+      <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2400" referrerpolicy="same-origin" alt="First Image">
+    </div>
+  </div>
+  <div id="h">
+    <%- content.content %>
+  </div>
+  <script src="/script.js">
+    // Include any necessary JavaScript code here
+  </script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prodemic Home</title>
+    <link rel="icon" type="image/png" href="/pro.png">
+    <link rel="stylesheet" href="/style.css">
+    
+</head>
+<body>
+      <nav>
+  <div class="navbar">
+    <a href="/" class="home-tab">Home</a> <!-- New Home tab -->
+    <div class="dropdown emoticon-dropdown"> <!-- Add emoticon-dropdown class -->
+      <button class="dropbtn">Emoticons</button>
+      <div class="dropdown-content" id="emoticonDropdown">
+        <!-- Add your list of emoticons here -->
+        <button class="emoticon" onclick="selectEmoticon('😀')">😀</button>
+        <button class="emoticon" onclick="selectEmoticon('😄')">😄</button>
+        <button class="emoticon" onclick="selectEmoticon('😂')">😂</button>
+        <button class="emoticon" onclick="selectEmoticon('😊')">😊</button>
+        <button class="emoticon" onclick="selectEmoticon('😍')">😍</button>
+        <button class="emoticon" onclick="selectEmoticon('😎')">😎</button>
+        <button class="emoticon" onclick="selectEmoticon('🙂')">🙂</button>
+        <button class="emoticon" onclick="selectEmoticon('😉')">😉</button>
+        <button class="emoticon" onclick="selectEmoticon('🤩')">🤩</button>
+        <button class="emoticon" onclick="selectEmoticon('😘')">😘</button>
+        <button class="emoticon" onclick="selectEmoticon('😇')">😇</button>
+        <button class="emoticon" onclick="selectEmoticon('😁')">😁</button>
+        <button class="emoticon" onclick="selectEmoticon('🥰')">🥰</button>
+        <button class="emoticon" onclick="selectEmoticon('😋')">😋</button>
+        <button class="emoticon" onclick="selectEmoticon('😜')">😜</button>
+        <button class="emoticon" onclick="selectEmoticon('😆')">😆</button>
+        <button class="emoticon" onclick="selectEmoticon('😃')">😃</button>
+        <button class="emoticon" onclick="selectEmoticon('🤗')">🤗</button>
+        <button class="emoticon" onclick="selectEmoticon('😌')">😌</button>
+        <button class="emoticon" onclick="selectEmoticon('🥳')">🥳</button>
+        <button class="emoticon" onclick="selectEmoticon('😎')">😎</button>
+        <button class="emoticon" onclick="selectEmoticon('🤪')">🤪</button>
+        <button class="emoticon" onclick="selectEmoticon('😊')">😊</button>
+        <button class="emoticon" onclick="selectEmoticon('🙃')">🙃</button>
+        <button class="remove-button" onclick="removeImage()" id="remove">Remove Imogy</button>
+
+        <div class="input-container">
+        <input type="file" id="iconInput" onchange="handleIconUpload(event)" accept="image/*">
+      <button class="upload-button" onclick="uploadIcon()">Upload Icon</button>
+        </div>
+        <!-- Add more emoticons as needed -->
+      </div>
+    </div>
+    
+    <div class="dropdown show-pages-dropdown"> <!-- Add show-pages-dropdown class -->
+      <button class="dropbtn">Show Pages</button>
+      <div class="dropdown-content" id="pageDropdown">
+        <!-- Dynamic content from MongoDB will be added here -->
+      </div>
+    </div>
+    <button onclick="edit()">Edit</button>
+    <button onclick="evo()">Evolve</button>
+    <label class="switch">
+      <input type="checkbox" id="themeSwitch" onchange="toggleTheme()">
+      <span class="slider"></span>
+    </label>
+  </div>
+</nav>
+
+  
+    
+      <div class="container">
+        <div class="image-container">
+          <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2400" referrerpolicy="same-origin" alt="First Image">
+        </div>
+        </div>
+        <div id="h">
+        <div class="image-container second-image-container" id="icon">
+          <img src="/pro.png" referrerpolicy="same-origin" alt="Second Image" >
+        </div>
+      <div class="contents">
+      <div class="intro" style="max-width: 100%; width: 100%; white-space: pre-wrap; word-break: break-word; caret-color: rgb(55, 53, 47); padding: 3px 2px;" id="title">Prodemic</div>
+      <span style="font-weight:600" data-token-index="0" class="notion">A virus of positive thought created and mutated by every recipient who receives it. 
+        Turning our global network into an evolutionary function for the best piece of text imaginable. A quest for the holy grail of vibes.*</span>
+    
+        <h2>Introduction</h2>
+        <p>We used to have faith in the frontier. We would become pioneers and colonize distant worlds. Today, we live in the dusk of these ambitions. Technology, in which we placed our hopes, has been used to vanquish our holy desires with broadcasts of distraction on a billion screens.</p>
+        <p>Instead of purpose, we find artificial dopamine and overconsumption. Despite economic prosperity, we are confronted with alienation, loss of institutional trust, and withdrawal from public life. There is a god-shaped hole at the heart of our culture, an invisible nihilism that robs us.</p>
+        <p>We need a new sense of purpose. The experience of the pandemic ruptured our sense of normalcy and led us to reconsider our way of life. The reconfiguration of our relationships over the Internet hinted that new modes of social organization were possible. With this opportunity in hand, we must ask ourselves: what should we align for?</p>
+        <p>The quest for the holy grail offers an answer. We want to live in a world that gives us a sense of ownership and belonging, with people who share our values and dreams. We will find purpose in a quest to build a new culture founded on an old insight: that in the final analysis, all moral systems, social systems, and political systems are judged by the <strong>vitality</strong> they produce in a people.</p>
+        <p>With this moral primitive as our compass, we set out on the quest for the holy grail of vibes. The holy grail of vibes is a representation of that qualia which most clearly and effectively fills that god-shaped hole within us. It is that holy essence of vibes that we seek to uncover.</p>
+        <p>For individuals, it will spread strength and virtue. For society, it will align the horizons of art, commerce, and technology around holiness.</p>
+        
+        <h2>Why Now</h2>
+        <p>Crafting the holiest vibe with input from every person on the globe used to be impossible. The core issue was a lack of connectivity. Holy texts of the past struggled to cross the oceans or the walls of the empire they lived in. Each holy text filled the believers in with faith, but in an attempt to hold tight to the collective narrative, denounced the continual search for holiness. At the time, global communication was impossible. Belief systems were spread on the physical plane. Today we have digitized our thoughts and personal lives, and we have a new opportunity to collectively participate in the writing of a positive global narrative and philosophy for mankind. A universal philosophy that has no single prophet, no walls, and that can change with the times as the world sees fit.</p>
+        <p>John Winthrop, the founder of Boston, once preached: "<em>For we must consider that we shall be as a city upon a hill. The eyes of all people are upon us.</em>" Even from the beginning, they sensed the magnitude of their purpose. How do we live up to this example? How will our descendants see us? Only great projects, continued in their same spirit, can answer. We do not aim for small ends, but to move the world.</p>
+        <p>The coronavirus taught us that when we are so interconnected, the spread of bad things can change the entire working flow of humanity at large. What if we focused on maximizing the spread of something positive? What if we changed the course of humanity with a few taps of our fingers?</p>
+        <p>With the internet in our hands, we have the opportunity to do the opposite of the virus. To spread from person to person an anti-virus made up of the very words you are reading here.</p>
+        <h2>The Plan</h2>
+        <h3>Step 1: Software - Create the platform through which information can evolve to its highest form.</h3>
+        <p>If this task is completed, you will find that all of this text is editable. You'll find a button labeled "evolve". From here, a link will be generated to a new page exactly as you have edited it.</p>
+        
+        <h3>Step 2: The People - Getting the word out there.</h3>
+        <p>If you received this webpage, the spread is working. The call of such a high conquest is a calling to move forward every single human in one's life to a higher path. To charge them with a good vibe, a positive notion for the future, and a slate to put their own values on it.</p>
+        
+        <h3>Step 3: Your Turn - Do not kill the lineage</h3>
+        <p>If you feel that the receiving of these thoughts and the idea of a prodemic is not a waste of time, but instead recognize the value to be gained for each person you share it onward to, please DO become a superspreader. There are applications which will allow you to hit your entire contact list. We are at a war for the future, and downloading a mass texting app and firing your best prodemic information virus strain is the greatest possible good one could do within 10 minutes.</p>
+        <p>Whoever brought you to this page infected you with carefully concentrated love. For each individual who passes this information forward takes the vibes they felt in as positive and pushes them forward as positive marks to the ones they love. They gift to you a ticket of participation in this global cause.</p>
+        <p>You are asked now to spread forward this global Prodemic to inspire a collective infection of hope and purpose.</p>
+        <p><strong>It's not every day you get an opportunity to change the course of humanity with such ease.</strong></p>
+    </div>
+    </div>
+    
+    <script src="/script.js"></script>
+</body>
+</html>
